@@ -1,0 +1,107 @@
+body{
+    background-color:white;
+}
+  h2 {
+    color: blue;
+    text-align: center;
+  }
+
+  h5{
+    color: blue;
+    text-align: center;
+  }
+
+  .banner{
+    background-image: url(assets/img/banner2.jpg);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  padding: 300px 0px;
+	  background-position: center center;
+  }
+  .banner .caption {
+    text-align: center;
+  }
+  .banner .caption h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .banner .caption h5 {
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .banner #search-section fieldset {
+    display: inline-block;
+  }
+  .banner #search-section {
+    position: relative;
+  }
+  .banner #search-section input.searchText {
+    float: left;
+    width: 570px;
+    min-width: 280px;
+    height: 49px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0px 15px;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+  }
+  .banner #search-section input.main-button {
+    position: relative;
+    top: 0;
+    right: 0;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+  }
+  #search-section ::placeholder {
+    color: whitesmoke;
+  }
+  
+  .peta{
+    height: auto;
+    width: auto;
+    overflow: auto;
+
+  }
+  #map {
+    float:left;
+  } 
+  #keterangan {
+    padding: 25px 50px 75px 50px;
+    float:right;
+    border: 1px solid black;
+  }
+
+  h6 {
+    color: blue;
+    text-align: center;
+  }
+  
